@@ -33,5 +33,5 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       - uses: Azure/functions-action@v1
         with:
-          app-name: fn-recipes-<team>-<4 digits>
+          app-name: fn-recipes-7iq-0626
           package: api
