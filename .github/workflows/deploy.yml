@@ -1,6 +1,10 @@
 name: fn-recipes-7iq-0626
  
-on: workflow_dispatch
+on:
+  push:
+    branches: [ main ]
+    paths-ignore: [ "api/**", ".github/workflows/deploy-api.yml" ]
+  workflow_dispatch:
  
 jobs:
   whoami:
