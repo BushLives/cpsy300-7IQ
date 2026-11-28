@@ -10,9 +10,9 @@ permissions:
   contents: read
  
 env:
-  ACR_NAME: <your registry name>
-  RESOURCE_GROUP: rg-cpsy300-project-<team>
-  CONTAINERAPP: ca-recipes-<team>
+  ACR_NAME: acrcpsy3007iq2077.azurecr.io
+  RESOURCE_GROUP: rg-cpsy300-project-7iq
+  CONTAINERAPP: ca-recipes-7iq
  
 jobs:
   build-and-deploy:
