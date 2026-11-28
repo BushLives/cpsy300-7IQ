@@ -10,7 +10,7 @@ permissions:
   contents: read
  
 env:
-  ACR_NAME: acrcpsy3007iq2077.azurecr.io
+  ACR_NAME: acrcpsy3007iq2077
   RESOURCE_GROUP: rg-cpsy300-project-7iq
   CONTAINERAPP: ca-recipes-7iq
  
