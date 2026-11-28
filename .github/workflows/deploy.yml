@@ -1,4 +1,4 @@
-name: fn-recipes-7iq-0626
+name: Deploy the API
  
 on:
   push:
