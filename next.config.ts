@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  serverExternalPackages: [
+    "@azure/identity",
+    "@azure/service-bus",
+    "powershell-utils",
+  ]
 };
 
 export default nextConfig;
